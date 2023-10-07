@@ -6,6 +6,10 @@ setInner("deskripsiProposal", data.description);
 
 setInner("judulProposal", data.isiProposal.judulProposal);
 setInner("deskripsi1", data.isiProposal.deskripsi1);
+setInner("latarbelakang1", data.isiProposal.latarBelakang1);
+setInner("latarbelakang2", data.isiProposal.latarBelakang2);
+setInner("latarbelakang3", data.isiProposal.latarBelakang3);
+setInner("latarbelakang4", data.isiProposal.latarBelakang4);
 
 setInner("name1", data.team[0].name1);
 setInner("npm1", data.team[0].npm1);
