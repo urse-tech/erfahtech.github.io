@@ -1,8 +1,11 @@
 import data from "../json/isiproposal.json" assert { type: "json" };
 import { setInner } from "https://jscroot.github.io/element/croot.js";
 
-setInner("judulProposal", data.title);
+setInner("Title", data.title);
 setInner("deskripsiProposal", data.description);
+
+setInner("judulProposal", data.isiProposal.judulProposal);
+setInner("deskripsi1", data.isiProposal.deskripsi1);
 
 setInner("name1", data.team[0].name1);
 setInner("npm1", data.team[0].npm1);
