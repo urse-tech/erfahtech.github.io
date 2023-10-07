@@ -26,9 +26,9 @@
 //     });
 //   }
 
-  document.querySelectorAll("#nav li").forEach(navEl => {
-    navEl.addEventListener("click", () => toggleTab(navEl.id, navEl.dataset.target));
-});
+//   document.querySelectorAll("#nav li").forEach(navEl => {
+//     navEl.addEventListener("click", () => toggleTab(navEl.id, navEl.dataset.target));
+// });
 
 function toggleTab(selectedNav, targetId) {
     const navEls = document.querySelectorAll("#nav li");
