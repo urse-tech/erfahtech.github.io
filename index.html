@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,255 +8,219 @@
     <!-- Bulma Version 0.9.4-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/showcase.css" />
-    <link rel="stylesheet" href="../css/tabs.css">
-    <script src="https://kit.fontawesome.com/2828f7885a.js"
-        integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/tabs.css" />
+    <script src="https://kit.fontawesome.com/2828f7885a.js" integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="favicon.png" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Begin Preloader -->
     <div class="preloader-wrapper">
-        <div class="preloader">
-            <img src="img/preloader.gif" alt="" />
-        </div>
+      <div class="preloader">
+        <img src="img/preloader.gif" alt="" />
+      </div>
     </div>
     <!-- End Preloader-->
 
     <!-- Begin Hero Content-->
     <div class="hero-body">
-        <div class="container has-text-centered">
-            <h1 class="subtitle">Hey there, I'm</h1>
-            <h2 class="title">Ashley</h2>
-            <h1 class="subtitle profession">A UI/UX Designer</h1>
-        </div>
+      <div class="container has-text-centered">
+        <h1 class="subtitle">Hey there, I'm</h1>
+        <h2 id="judulProposal" class="title"></h2>
+        <h1 id="deskripsiProposal" class="subtitle profession"></h1>
+      </div>
     </div>
     <!-- End Hero Content-->
 
     <div class="tabs is-boxed is-centered main-menu" id="nav">
-        <ul>
-            <li data-target="pane-1" id="1">
-                <a>
-                    <span class="icon is-small"><i class="fa fa-image"></i></span>
-                    <span>Proposal</span>
-                </a>
-            </li>
-            <li data-target="pane-2" id="2" class="is-active">
-                <a>
-                    <span class="icon is-small"><i class="fab fa-empire"></i></span>
-                    <span>Beranda</span>
-                </a>
-            </li>
-            <li data-target="pane-3" id="3">
-                <a>
-                    <span class="icon is-small"><i class="fab fa-superpowers"></i></span>
-                    <span>Team</span>
-                </a>
-            </li>
-        </ul>
+      <ul>
+        <li data-target="pane-1" id="1">
+          <a>
+            <span class="icon is-small"><i class="fa fa-image"></i></span>
+            <span>Proposal</span>
+          </a>
+        </li>
+        <li data-target="pane-2" id="2" class="is-active">
+          <a>
+            <span class="icon is-small"><i class="fab fa-empire"></i></span>
+            <span>Beranda</span>
+          </a>
+        </li>
+        <li data-target="pane-3" id="3">
+          <a>
+            <span class="icon is-small"><i class="fab fa-superpowers"></i></span>
+            <span>Team</span>
+          </a>
+        </li>
+      </ul>
     </div>
     <div class="tab-content">
-        <div class="tab-pane" id="pane-1">
-            <figure>
-                <img src="https://source.unsplash.com/0_xMuEbpFAQ/400x400" alt="💯" class="cent">
-            </figure>
-            <figure>
-                <img src="https://source.unsplash.com/wPMvPMD9KBI/800x600" alt="💯" class="cent">
-            </figure>
-        </div>
-        <div class="tab-pane" id="pane-3">
-            <div class="columns">
-                <div class="container">
-                    <!-- Begin About Me Section -->
-                    <div class="section-light about-me" id="about-me">
-                        <div class="container">
-                            <div class="column is-12 about-me">
-                                <h1 class="title has-text-centered section-title">About Me</h1>
-                            </div>
-                            <div class="columns is-multiline">
-                                <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
-                                    <p class="is-larger">
-                                        &emsp;&emsp;<strong>Showcase is a modern, beautiful personal website template to
-                                            showcase who you are, as well as projects you've worked on in
-                                            the past.</strong>
-                                    </p>
-                                    <br />
-                                    <p>
-                                        Showcase was built from the ground up with Bulma to be fast and
-                                        responsive out of the box with all source files well documented
-                                        for easy to customization. The Showcase template gives you a
-                                        personal space to share what you are all about as a creative
-                                        designer, developer, photographer, and more!
-                                    </p>
-                                    <br />
-                                    <div class="is-divider"></div>
-                                    <div class="columns about-links">
-                                        <div class="column">
-                                            <p class="heading">
-                                                <strong>Give me a ring</strong>
-                                            </p>
-                                            <p class="subheading">
-                                                123-456-7890
-                                            </p>
-                                        </div>
-                                        <div class="column">
-                                            <p class="heading">
-                                                <strong>Email Me</strong>
-                                            </p>
-                                            <p class="subheading">
-                                                hello@example.com
-                                            </p>
-                                        </div>
-                                        <div class="column">
-                                            <p class="heading">
-                                                <strong>View my portfolio</strong>
-                                            </p>
-                                            <p class="subheading">
-                                                example.com
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="column is-6 right-image " data-aos="fade-left">
-                                    <img class="is-rounded" src="https://picsum.photos/id/366/600/375" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End About Me Content -->
-
+      <div class="tab-pane" id="pane-1">
+        <figure>
+          <img src="https://source.unsplash.com/0_xMuEbpFAQ/400x400" alt="💯" class="cent" />
+        </figure>
+        <figure>
+          <img src="https://source.unsplash.com/wPMvPMD9KBI/800x600" alt="💯" class="cent" />
+        </figure>
+      </div>
+      <div class="tab-pane" id="pane-3">
+        <div class="columns">
+          <div class="container">
+            <!-- Begin About Me Section -->
+            <div class="section-light about-me" id="about-me">
+              <div class="container">
+                <div class="column is-12 about-me">
+                  <h1 class="title has-text-centered section-title">About Me</h1>
                 </div>
-            </div>
-        </div>
-        <div class="tab-pane" id="pane-4">
-            <div class="columns is-centered">
-                <div class="column is-three-quarters">
-                    <div class="embed-container image">
-                        <iframe src="https://player.vimeo.com/video/261794608" frameborder="0" webkitAllowFullScreen
-                            mozallowfullscreen allowFullScreen></iframe>
+                <div class="columns is-multiline">
+                  <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
+                    <p class="is-larger">&emsp;&emsp;<strong>Showcase is a modern, beautiful personal website template to showcase who you are, as well as projects you've worked on in the past.</strong></p>
+                    <br />
+                    <p>
+                      Showcase was built from the ground up with Bulma to be fast and responsive out of the box with all source files well documented for easy to customization. The Showcase template gives you a personal space to share what
+                      you are all about as a creative designer, developer, photographer, and more!
+                    </p>
+                    <br />
+                    <div class="is-divider"></div>
+                    <div class="columns about-links">
+                      <div class="column">
+                        <p class="heading">
+                          <strong>Give me a ring</strong>
+                        </p>
+                        <p class="subheading">123-456-7890</p>
+                      </div>
+                      <div class="column">
+                        <p class="heading">
+                          <strong>Email Me</strong>
+                        </p>
+                        <p class="subheading">hello@example.com</p>
+                      </div>
+                      <div class="column">
+                        <p class="heading">
+                          <strong>View my portfolio</strong>
+                        </p>
+                        <p class="subheading">example.com</p>
+                      </div>
                     </div>
+                  </div>
+                  <div class="column is-6 right-image" data-aos="fade-left">
+                    <img class="is-rounded" src="https://picsum.photos/id/366/600/375" alt="" />
+                  </div>
                 </div>
+              </div>
             </div>
+            <!-- End About Me Content -->
+          </div>
         </div>
+      </div>
+      <div class="tab-pane" id="pane-4">
+        <div class="columns is-centered">
+          <div class="column is-three-quarters">
+            <div class="embed-container image">
+              <iframe src="https://player.vimeo.com/video/261794608" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <!-- Beranda -->
-        <div class="tab-pane is-active" id="pane-2">
-            <div class="content">
-                <h1>Hello World</h1>
-                <p>Lorem ipsum<sup><a>[1]</a></sup> dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus
-                    ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate
-                    semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque. Sub<sub>script</sub>
-                    works as well!</p>
-                <h2>Second level</h2>
-                <p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum
-                    maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse
-                    potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.
-                </p>
-                <ul>
-                    <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
-                    <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
-                    <li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
-                    <li>Ut non enim metus.</li>
-                </ul>
-                <h5>Fifth level</h5>
-                <p>Aliquam sagittis rhoncus vulputate. Cras non luctus sem, sed tincidunt ligula. Vestibulum at nunc
-                    elit. Praesent aliquet ligula mi, in luctus elit volutpat porta. Phasellus molestie diam vel nisi
-                    sodales, a eleifend augue laoreet. Sed nec eleifend justo. Nam et sollicitudin odio.</p>
-                <figure>
-                    <img src="https://bulma.io/images/placeholders/256x256.png" alt="💯">
-                    <img src="https://bulma.io/images/placeholders/256x256.png" alt="💯">
-                    <figcaption>
-                        Figure 1: Some beautiful placeholders
-                    </figcaption>
-                </figure>
-                <h6>Sixth level</h6>
-                <p>Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut
-                    eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc,
-                    scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur
-                    dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio
-                    vitae est. Etiam at cursus metus.</p>
-            </div>
+      <!-- Beranda -->
+      <div class="tab-pane is-active" id="pane-2">
+        <div class="content">
+          <h1>Hello World</h1>
+          <p>
+            Lorem ipsum<sup><a>[1]</a></sup> dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio,
+            sollicitudin vel erat vel, interdum mattis neque. Sub<sub>script</sub> works as well!
+          </p>
+          <h2>Second level</h2>
+          <p>
+            Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus
+            lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.
+          </p>
+          <ul>
+            <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
+            <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
+            <li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
+            <li>Ut non enim metus.</li>
+          </ul>
+          <h5>Fifth level</h5>
+          <p>
+            Aliquam sagittis rhoncus vulputate. Cras non luctus sem, sed tincidunt ligula. Vestibulum at nunc elit. Praesent aliquet ligula mi, in luctus elit volutpat porta. Phasellus molestie diam vel nisi sodales, a eleifend augue
+            laoreet. Sed nec eleifend justo. Nam et sollicitudin odio.
+          </p>
+          <figure>
+            <img src="https://bulma.io/images/placeholders/256x256.png" alt="💯" />
+            <img src="https://bulma.io/images/placeholders/256x256.png" alt="💯" />
+            <figcaption>Figure 1: Some beautiful placeholders</figcaption>
+          </figure>
+          <h6>Sixth level</h6>
+          <p>
+            Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada
+            ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.
+          </p>
         </div>
-        <!-- Akhir Beranda -->
+      </div>
+      <!-- Akhir Beranda -->
     </div>
-
 
     <!-- Begin Scroll Up Button -->
 
     <form action="#home">
-        <button id="toTop" title="Go to top">
-            <i class="fas fa-angle-up"></i>
-        </button>
+      <button id="toTop" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+      </button>
     </form>
     <!-- End Scroll Up Button -->
 
     <!-- Begin Header -->
     <div class="header-wrapper" id="home">
-        <!-- Begin Hero -->
-        <section class="hero is-large">
-            <!-- Begin Mobile Nav -->
-            <nav class="navbar is-fixed-top is-transparent is-hidden-desktop">
-                <!-- Begin Burger Menu -->
-                <div class="navbar-brand">
-                    <div class="navbar-burger burger" data-target="mobile-nav">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <!-- End Burger Menu -->
-                <div id="mobile-nav" class="navbar-menu">
-                    <div class="navbar-end">
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#home">
-                                Home
-                            </a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#about-me">
-                                About Me
-                            </a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#services">
-                                Services
-                            </a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#skills">
-                                Skills
-                            </a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#my-work">
-                                My Work
-                            </a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#contact">
-                                Contact
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <!-- End Mobile Nav -->
-
-        </section>
-        <!-- End Hero -->
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-fixed-top is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#home"> Home </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#about-me"> About Me </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#services"> Services </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#skills"> Skills </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#my-work"> My Work </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#contact"> Contact </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+      </section>
+      <!-- End Hero -->
     </div>
     <!-- End Header -->
 
-
     <!-- Begin Footer -->
     <div class="footer">
-        <p>
-            <strong class="white">Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>.
-            The source code is licensed
-            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed
-            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-        </p>
+      <p>
+        <strong class="white">Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
     </div>
     <!-- End Footer -->
 
@@ -266,14 +229,14 @@
     <script src="js/showcase.js"></script>
     <script src="js/bulma.js"></script>
     <script src="js/tabs.js"></script>
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet" />
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script>
-        AOS.init({
-            easing: "ease-out",
-            duration: 800,
-        });
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
     </script>
-</body>
-
+    <script type="module" src="js/insert.js"></script>
+  </body>
 </html>
