@@ -1,247 +1,537 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Erfah.tech</title>
-    <link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon" />
-    <!-- Bulma Version 0.9.x -->
-    <link rel="stylesheet prefetch" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
-    <link rel="stylesheet" href="css/tabs.css" />
-    <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Showcase - Personal Portfolio One Page Bulma Theme</title>
+    <!-- Bulma Version 0.9.4-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/showcase.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="favicon.png" />
   </head>
+
   <body>
-    <section class="hero is-info">
-      <div class="hero-body">
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="img/preloader.gif" alt="" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Scroll Up Button -->
+
+    <form action="#home">
+      <button id="toTop" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+      </button>
+    </form>
+    <!-- End Scroll Up Button -->
+
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-fixed-top is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#home">
+                  Home
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#about-me">
+                  About Me
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#services">
+                  Services
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#skills">
+                  Skills
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#my-work">
+                  My Work
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#contact">
+                  Contact
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle">Hey there, I'm</h1>
+            <h2 class="title">Ashley</h2>
+            <h1 class="subtitle profession">A UI/UX Designer</h1>
+          </div>
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered is-fixed-top">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about-me">About Me</a>
+                  </li>
+                  <li>
+                    <a href="#services">Services</a>
+                  </li>
+                  <li>
+                    <a href="#skills">Skills</a>
+                  </li>
+                  <li>
+                    <a href="#my-work">My Work</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+      <!-- Begin About Me Section -->
+      <div class="section-light about-me" id="about-me">
         <div class="container">
-          <h1 class="title">ERFAH.TECH</h1>
-          <h2 class="subtitle">A new way to IoT</h2>
-        </div>
-      </div>
-      <div class="tabs is-boxed is-centered main-menu" id="nav">
-        <ul>
-          <li data-target="pane-1" id="1">
-            <a>
-              <span class="icon is-small"><i class="fa fa-image"></i></span>
-              <span>Proposal</span>
-            </a>
-          </li>
-          <li data-target="pane-2" id="2" class="is-active">
-            <a>
-              <span class="icon is-small"><i class="fab fa-empire"></i></span>
-              <span>Beranda</span>
-            </a>
-          </li>
-          <li data-target="pane-3" id="3">
-            <a>
-              <span class="icon is-small"><i class="fab fa-superpowers"></i></span>
-              <span>Anggota Team</span>
-            </a>
-          </li>
-          <li data-target="pane-4" id="4">
-            <a>
-              <span class="icon is-small"><i class="fa fa-film"></i></span>
-              <span>Video</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="tab-content">
-        <div class="tab-pane" id="pane-1">
-          <figure>
-            <img src="https://source.unsplash.com/0_xMuEbpFAQ/400x400" alt="💯" class="cent" />
-          </figure>
-          <figure>
-            <img src="https://source.unsplash.com/wPMvPMD9KBI/800x600" alt="💯" class="cent" />
-          </figure>
-        </div>
-        <div class="tab-pane" id="pane-3">
-          <div class="columns">
-            <div class="container">
-              <div class="columns">
-                <div class="column">
-                  <article class="media">
-                    <div class="media-left">
-                      <i class="fab fa-github-square fa-4x"></i>
-                    </div>
-                    <div class="media-content">
-                      <div class="content">
-                        <p>
-                          <strong>Dominic Ipsum</strong>
-                          <br />
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                        </p>
-                      </div>
-                    </div>
-                  </article>
-                  <article class="media">
-                    <div class="media-left">
-                      <i class="fab fa-empire fa-4x"></i>
-                    </div>
-                    <div class="media-content">
-                      <div class="content">
-                        <p>
-                          <strong>Cassie Ipsum</strong>
-                          <br />
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                        </p>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-                <div class="column">
-                  <article class="media">
-                    <div class="media-left">
-                      <i class="fab fa-ravelry fa-4x"></i>
-                    </div>
-                    <div class="media-content">
-                      <div class="content">
-                        <p>
-                          <strong>Avery Ipsum</strong>
-                          <br />
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                        </p>
-                      </div>
-                    </div>
-                  </article>
-                  <article class="media">
-                    <div class="media-left">
-                      <i class="fab fa-github-alt fa-4x"></i>
-                    </div>
-                    <div class="media-content">
-                      <div class="content">
-                        <p>
-                          <strong>io Ipsum</strong>
-                          <br />
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis. ╳
-                        </p>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </div>
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">About Me</h1>
           </div>
-        </div>
-        <div class="tab-pane" id="pane-4">
-          <div class="columns is-centered">
-            <div class="column is-three-quarters">
-              <div class="embed-container image">
-                <iframe src="https://player.vimeo.com/video/261794608" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane is-active" id="pane-2">
-          <div class="content">
-            <h1>Hello World</h1>
-            <p>
-              Lorem ipsum<sup><a>[1]</a></sup> dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat
-              odio, sollicitudin vel erat vel, interdum mattis neque. Sub<sub>script</sub> works as well!
-            </p>
-            <h2>Second level</h2>
-            <p>
-              Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem
-              rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.
-            </p>
-            <ul>
-              <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
-              <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
-              <li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
-              <li>Ut non enim metus.</li>
-            </ul>
-            <h3>Third level</h3>
-            <p>Quisque ante lacus, malesuada ac auctor vitae, congue <a href="#">non ante</a>. Phasellus lacus ex, semper ac tortor nec, fringilla condimentum orci. Fusce eu rutrum tellus.</p>
-            <ol>
-              <li>Donec blandit a lorem id convallis.</li>
-              <li>Cras gravida arcu at diam gravida gravida.</li>
-              <li>Integer in volutpat libero.</li>
-              <li>Donec a diam tellus.</li>
-              <li>Aenean nec tortor orci.</li>
-              <li>Quisque aliquam cursus urna, non bibendum massa viverra eget.</li>
-              <li>Vivamus maximus ultricies pulvinar.</li>
-            </ol>
-            <blockquote>Ut venenatis, nisl scelerisque sollicitudin fermentum, quam libero hendrerit ipsum, ut blandit est tellus sit amet turpis.</blockquote>
-            <p>Quisque at semper enim, eu hendrerit odio. Etiam auctor nisl et <em>justo sodales</em> elementum. Maecenas ultrices lacus quis neque consectetur, et lobortis nisi molestie.</p>
-            <p>Sed sagittis enim ac tortor maximus rutrum. Nulla facilisi. Donec mattis vulputate risus in luctus. Maecenas vestibulum interdum commodo.</p>
-            <dl>
-              <dt>Web</dt>
-              <dd>The part of the Internet that contains websites and web pages</dd>
-              <dt>HTML</dt>
-              <dd>A markup language for creating web pages</dd>
-              <dt>CSS</dt>
-              <dd>A technology to make HTML look better</dd>
-            </dl>
-            <p>Suspendisse egestas sapien non felis placerat elementum. Morbi tortor nisl, suscipit sed mi sit amet, mollis malesuada nulla. Nulla facilisi. Nullam ac erat ante.</p>
-            <h4>Fourth level</h4>
-            <p>Nulla efficitur eleifend nisi, sit amet bibendum sapien fringilla ac. Mauris euismod metus a tellus laoreet, at elementum ex efficitur.</p>
-            <pre>
-                                                                                                &lt;!DOCTYPE html&gt;
-                                                                                                &lt;html&gt;
-                                                                                                  &lt;head&gt;
-                                                                                                    &lt;title&gt;Hello World&lt;/title&gt;
-                                                                                                  &lt;/head&gt;
-                                                                                                  &lt;body&gt;
-                                                                                                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.&lt;/p&gt;
-                                                                                                  &lt;/body&gt;
-                                                                                                &lt;/html&gt;
-                    </pre
+          <div class="columns is-multiline">
+            <div
+              class="column is-6 has-vertically-aligned-content"
+              data-aos="fade-right"
             >
-            <p>Maecenas eleifend sollicitudin dui, faucibus sollicitudin augue cursus non. Ut finibus eleifend arcu ut vehicula. Mauris eu est maximus est porta condimentum in eu justo. Nulla id iaculis sapien.</p>
-            <table>
-              <thead>
-                <tr>
-                  <th>One</th>
-                  <th>Two</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Three</td>
-                  <td>Four</td>
-                </tr>
-                <tr>
-                  <td>Five</td>
-                  <td>Six</td>
-                </tr>
-                <tr>
-                  <td>Seven</td>
-                  <td>Eight</td>
-                </tr>
-                <tr>
-                  <td>Nine</td>
-                  <td>Ten</td>
-                </tr>
-                <tr>
-                  <td>Eleven</td>
-                  <td>Twelve</td>
-                </tr>
-              </tbody>
-            </table>
-            <p>
-              Phasellus porttitor enim id metus volutpat ultricies. Ut nisi nunc, blandit sed dapibus at, vestibulum in felis. Etiam iaculis lorem ac nibh bibendum rhoncus. Nam interdum efficitur ligula sit amet ullamcorper. Etiam
-              tristique, leo vitae porta faucibus, mi lacus laoreet metus, at cursus leo est vel tellus. Sed ac posuere est. Nunc ultricies nunc neque, vitae ultricies ex sodales quis. Aliquam eu nibh in libero accumsan pulvinar. Nullam nec
-              nisl placerat, pretium metus vel, euismod ipsum. Proin tempor cursus nisl vel condimentum. Nam pharetra varius metus non pellentesque.
-            </p>
-            <h5>Fifth level</h5>
-            <p>
-              Aliquam sagittis rhoncus vulputate. Cras non luctus sem, sed tincidunt ligula. Vestibulum at nunc elit. Praesent aliquet ligula mi, in luctus elit volutpat porta. Phasellus molestie diam vel nisi sodales, a eleifend augue
-              laoreet. Sed nec eleifend justo. Nam et sollicitudin odio.
-            </p>
-            <figure>
-              <img src="https://bulma.io/images/placeholders/256x256.png" alt="💯" />
-              <img src="https://bulma.io/images/placeholders/256x256.png" alt="💯" />
-              <figcaption>Figure 1: Some beautiful placeholders</figcaption>
-            </figure>
-            <h6>Sixth level</h6>
-            <p>
-              Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada
-              ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.
-            </p>
+              <p class="is-larger">
+                &emsp;&emsp;<strong
+                  >Showcase is a modern, beautiful personal website template to
+                  showcase who you are, as well as projects you've worked on in
+                  the past.</strong
+                >
+              </p>
+              <br />
+              <p>
+                Showcase was built from the ground up with Bulma to be fast and
+                responsive out of the box with all source files well documented
+                for easy to customization. The Showcase template gives you a
+                personal space to share what you are all about as a creative
+                designer, developer, photographer, and more!
+              </p>
+              <br />
+              <div class="is-divider"></div>
+              <div class="columns about-links">
+                <div class="column">
+                  <p class="heading">
+                    <strong>Give me a ring</strong>
+                  </p>
+                  <p class="subheading">
+                    123-456-7890
+                  </p>
+                </div>
+                <div class="column">
+                  <p class="heading">
+                    <strong>Email Me</strong>
+                  </p>
+                  <p class="subheading">
+                    hello@example.com
+                  </p>
+                </div>
+                <div class="column">
+                  <p class="heading">
+                    <strong>View my portfolio</strong>
+                  </p>
+                  <p class="subheading">
+                    example.com
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6 right-image " data-aos="fade-left">
+              <img
+                class="is-rounded"
+                src="https://picsum.photos/id/366/600/375"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <script src="js/bulma.js"></script>
-    <script src="js/tabs.js"></script>
+      <!-- End About Me Content -->
+      <div class="section-dark resume">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">
+                View My Resume
+              </h1>
+            </div>
+            <div class="column is-10 has-text-centered is-offset-1">
+              <h2 class="subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et doloremagna aliqua
+              </h2>
+              <form action="example.docs">
+                <button class="button">
+                  Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Begin Services Content -->
+      <div class="section-color services" id="services">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div
+              class="column is-12 about-me"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1 class="title has-text-centered section-title">Services</h1>
+
+              <h2 class="subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+              </h2>
+              <br />
+            </div>
+            <div class="columns is-12">
+              <div
+                class="column is-4 has-text-centered"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <i class="fad fa-meteor fa-3x"></i>
+                <hr />
+                <h2>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </h2>
+              </div>
+              <div
+                class="column is-4 has-text-centered"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <i class="fas fa-paint-brush fa-3x"></i>
+                <hr />
+                <h2>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </h2>
+              </div>
+              <div
+                class="column is-4 has-text-centered"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <i class="fas fa-rocket fa-3x"></i>
+                <hr />
+                <h2>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </h2>
+              </div>
+            </div>
+            <hr />
+            <div class="columns is-12">
+              <div
+                class="column is-4 has-text-centered"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <i class="fas fa-upload fa-3x"></i>
+                <hr />
+                <h2>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </h2>
+              </div>
+              <div
+                class="column is-4 has-text-centered"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <i class="fas fa-bus fa-3x"></i>
+                <hr />
+                <h2>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </h2>
+              </div>
+              <div
+                class="column is-4 has-text-centered"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <i class="fas fa-code fa-3x"></i>
+                <hr />
+                <h2>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Services Content -->
+      <!-- Begin Skills Content -->
+      <div class="section-light skills" id="skills">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">Skills</h1>
+            </div>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>Adobe Experience Design</h1>
+              <progress class="progress" value="70" max="100">30%</progress>
+              <h1>Adobe After Effects</h1>
+              <progress class="progress" value="65" max="100">30%</progress>
+              <h1>Visual Studio Code</h1>
+              <progress class="progress" value="58" max="100">45%</progress>
+              <h1>Sketch</h1>
+              <progress class="progress" value="90" max="100">60%</progress>
+            </div>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>HTML</h1>
+              <progress class="progress" value="85" max="100">30%</progress>
+              <h1>CSS</h1>
+              <progress class="progress" value="95" max="100">30%</progress>
+              <h1>VueJS</h1>
+              <progress class="progress" value="70" max="100">45%</progress>
+              <h1>React</h1>
+              <progress class="progress" value="60" max="100">60%</progress>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Skills Content -->
+      <!-- Begin Work Content -->
+      <div class="section-dark my-work" id="my-work">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12">
+              <h1 class="title has-text-centered section-title">My Work</h1>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=0');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=10');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=20');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=30');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=40');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=50');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=60');"
+                ></figure>
+              </a>
+            </div>
+            <div class="column is-3">
+              <a href="#">
+                <figure
+                  class="image is-2by1 work-item"
+                  style="background-image: url('https://picsum.photos/320/180?image=70');"
+                ></figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Work Content -->
+      <!-- Begin Contact Content -->
+      <div class="section-light contact" id="contact">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in-up"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">
+                Get in touch
+              </h1>
+            </div>
+            <div class="column is-8 is-offset-2">
+              <form
+                action="https://formspree.io/email@example.com"
+                method="POST"
+              >
+                <div class="field">
+                  <label class="label">Name</label>
+                  <div class="control has-icons-left">
+                    <input
+                      class="input"
+                      type="text"
+                      placeholder="Ex. Jane Smith"
+                      name="Name"
+                    />
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-user"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Email</label>
+                  <div class="control has-icons-left">
+                    <input
+                      class="input"
+                      type="email"
+                      placeholder="Ex. hello@arctheme.com"
+                      name="Email"
+                    />
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label">Message</label>
+                  <div class="control">
+                    <textarea
+                      class="textarea"
+                      placeholder="Textarea"
+                      name="Message"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="control ">
+                    <button class="button submit-button">
+                      Submit&nbsp;&nbsp;
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Contact Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <p>
+        <strong class="white">Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>.
+        The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/showcase.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
   </body>
 </html>
