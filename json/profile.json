@@ -1,0 +1,27 @@
+{
+  "title": "Proposal Proyek 3",
+  "description": "Proposal Proyek 3 ",
+  "team": [
+    {
+      "name": "Erdito Nausha Adam",
+      "npm": "1214031",
+      "email": "erditonaushaadam@gmail.com"
+    }
+  ],
+  "team2": [
+    {
+      "name": "Auliana Fahrian",
+      "npm": "1214049",
+      "email": "aulianafahrian@gmail.com"
+    }
+  ],
+  "isiProposal": {
+    "judulProposal": "Ur System Ecosystem (USE)",
+    "latarBelakang1": "",
+    "latarBelakang2": "",
+    "latarBelakang3": "",
+    "latarBelakang4": "",
+    "waktuPelaksanakan": "",
+    "kesimpulan": ""
+  }
+}
