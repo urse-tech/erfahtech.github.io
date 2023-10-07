@@ -3,18 +3,19 @@
   "description": "Ur Smart Ecosystem",
   "team": [
     {
-      "name": "Erdito Nausha Adam",
-      "npm": "1214031",
-      "email": "erditonaushaadam@gmail.com"
-    }
-  ],
-  "team2": [
+      "name1": "Erdito Nausha Adam",
+      "npm1": "1214031",
+      "email1": "erditonaushaadam@gmail.com",
+      "github1": "https://github.com/erditona"
+    },
     {
-      "name": "Auliana Fahrian",
-      "npm": "1214049",
-      "email": "aulianafahrian@gmail.com"
+      "name2": "Auliana Fahrian",
+      "npm2": "1214049",
+      "email2": "aulianafahrian@gmail.com",
+      "github2": "https://github.com/aulianafahrian"
     }
   ],
+
   "isiProposal": {
     "judulProposal": "Ur Smart Ecosystem (USE)",
     "latarBelakang1": "",
