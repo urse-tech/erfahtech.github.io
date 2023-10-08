@@ -17,14 +17,25 @@ const responsFungsi = (data) => {
     setInner("npm1", data.team[0].npm1);
     setInner("email1", data.team[0].email1);
     setInner("github1", data.team[0].github1);
-    setInner("foto1", `<img src="${data.team[0].foto1}"alt="image">`);
+    setInner("foto1", `<img src="${data.team[0].foto1}"alt="image" style="border-radius: 50%; width: 200px; height: 200px;">`);
     setInner("name2", data.team[1].name2);
     setInner("npm2", data.team[1].npm2);
     setInner("email2", data.team[1].email2);
     setInner("github2", data.team[1].github2);
-    setInner("foto2", `<img src="${data.team[1].foto2}"alt="image">`);
+    setInner("foto2", `<img src="${data.team[1].foto2}" alt="image" style="border-radius: 50%; width: 200px; height: 200px;">`);
 
-    setInner("logo1", `<img src="${data.Logo.logo1}"alt="image">`);
+
+    // setInner("logo1", `<img src="${data.Logo.logo1}"alt="image">`);
+    // setInner("logo2", `<img src="${data.Logo.logo1}"alt="image">`);
+    // setInner("logo3", `<img src="${data.Logo.logo1}"alt="image">`);
+    // setInner("logo4", `<img src="${data.Logo.logo1}"alt="image">`);
+    // setInner("logo5", `<img src="${data.Logo.logo1}"alt="image">`);
+
+    setInner("logo1", `<img src="${data.Logo.logo1}" alt="image" style="width: 100px; height: 100px;">`);
+    setInner("logo2", `<img src="${data.Logo.logo1}" alt="image" style="width: 100px; height: 100px;">`);
+    setInner("logo3", `<img src="${data.Logo.logo1}" alt="image" style="width: 100px; height: 100px;">`);
+    setInner("logo4", `<img src="${data.Logo.logo1}" alt="image" style="width: 100px; height: 100px;">`);
+
     };
 
 await get("https://raw.githubusercontent.com/erfahtech/erfahtech.github.io/main/json/isiproposal.json", responsFungsi);

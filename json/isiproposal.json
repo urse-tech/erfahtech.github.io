@@ -30,7 +30,9 @@
 
   "Logo": {
     "logo1": "https://raw.githubusercontent.com/erfahtech/erfahtech.github.io/main/gambar/JavaScript-logo.png",
-    "logo2": "",
-    "logo3": "",
-    "logo4": ""}
+    "logo2": "https://raw.githubusercontent.com/erfahtech/erfahtech.github.io/main/gambar/JavaScript-logo.png",
+    "logo3": "https://raw.githubusercontent.com/erfahtech/erfahtech.github.io/main/gambar/JavaScript-logo.png",
+    "logo4": "https://raw.githubusercontent.com/erfahtech/erfahtech.github.io/main/gambar/JavaScript-logo.png",
+    "logo5": "https://raw.githubusercontent.com/erfahtech/erfahtech.github.io/main/gambar/JavaScript-logo.png"
+  }
 }
