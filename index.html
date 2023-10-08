@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ERHAF.TECH</title>
+    <title>ERFAH.TECH</title>
     <!-- Bulma Version 0.9.4-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/showcase.css" />
@@ -101,12 +101,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="column is-6 right-image " data-aos="fade-left">
-                                    <img class="is-rounded" src="https://picsum.photos/id/366/600/375" alt="" />
-                                </div>
+                                <div id="foto1" class="column is-6 right-image " data-aos="fade-left"></div>
                             </div>
                         </div>
 
+                        <hr>
                         <div class="container">
                             <div class="columns is-multiline">
                                 <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
@@ -136,9 +135,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="column is-6 right-image " data-aos="fade-left">
-                                    <img class="is-rounded" src="https://picsum.photos/id/366/600/375" alt="" />
-                                </div>
+                                <div id="foto2" class="column is-6 right-image " data-aos="fade-left"></div>
                             </div>
                         </div>
 
@@ -176,8 +173,63 @@
                 <br>
                 <hr>
                 <h1>Teknologi & Tools</h1>
-                <div id="teknologi&tools"></div>
             </div>
+            <!-- Begin Work Content -->
+            <div class="section-dark my-work" id="my-work">
+                <div class="container">
+                    <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
+                        <div class="column is-3">
+                            <a href="#">
+                                <figure class="image is-2by1 work-item"
+                                    style="background-image: url('https://picsum.photos/320/180?image=0');"></figure>
+                            </a>
+                        </div>
+                        <div class="column is-3">
+                            <a href="#">
+                                <figure class="image is-2by1 work-item"
+                                    style="background-image: url('https://picsum.photos/320/180?image=10');"></figure>
+                            </a>
+                        </div>
+                        <div class="column is-3">
+                            <a href="#">
+                                <figure class="image is-2by1 work-item"
+                                    style="background-image: url('https://picsum.photos/320/180?image=20');"></figure>
+                            </a>
+                        </div>
+                        <div class="column is-3">
+                            <a href="#">
+                                <figure class="image is-2by1 work-item"
+                                    style="background-image: url('https://picsum.photos/320/180?image=30');"></figure>
+                            </a>
+                        </div>
+                        <div class="column is-3">
+                            <a href="#">
+                                <figure class="image is-2by1 work-item"
+                                    style="background-image: url('https://picsum.photos/320/180?image=40');"></figure>
+                            </a>
+                        </div>
+                        <div class="column is-3">
+                            <a href="#">
+                                <figure class="image is-2by1 work-item"
+                                    style="background-image: url('https://picsum.photos/320/180?image=50');"></figure>
+                            </a>
+                        </div>
+                        <div class="column is-3">
+                            <a href="#">
+                                <figure class="image is-2by1 work-item"
+                                    style="background-image: url('https://picsum.photos/320/180?image=60');"></figure>
+                            </a>
+                        </div>
+                        <div class="column is-3">
+                            <a href="#">
+                                <figure class="image is-2by1 work-item"
+                                    style="background-image: url('https://picsum.photos/320/180?image=70');"></figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Work Content -->
         </div>
         <!-- Akhir Beranda -->
     </div>
@@ -185,9 +237,7 @@
     <!-- Begin Footer -->
     <div class="footer">
         <p>
-            <strong class="white">Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is
-            licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed
-            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        <p>&copy; <span id="tahun-copyright"></span> ErfahTech.
         </p>
     </div>
     <!-- End Footer -->
@@ -205,6 +255,14 @@
             duration: 800,
         });
     </script>
+    <script>
+        // Mendapatkan tahun saat ini
+        var tahunSaatIni = new Date().getFullYear();
+
+        // Memasukkan tahun ke dalam elemen dengan ID "tahun-copyright"
+        document.getElementById("tahun-copyright").textContent = tahunSaatIni;
+    </script>
+
     <script type="module" src="js/insert.js"></script>
 </body>
 
