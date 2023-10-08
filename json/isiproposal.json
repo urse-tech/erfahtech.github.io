@@ -26,5 +26,11 @@
     "latarBelakang3": "Pengembangan Aplikasi Monitoring IoT dengan JavaScript dan Protokol MQTT diharapkan meningkatkan efisiensi dan kualitas kehidupan. Diharapkan aplikasi ini akan menjadi alat yang mumpuni dalam pengelolaan perangkat IoT, memungkinkan pengguna untuk mengontrol, memantau, dan mengoptimalkan penggunaan perangkat dengan lebih baik. Kami berharap aplikasi ini akan menghasilkan penghematan energi dan sumber daya yang signifikan, berkontribusi pada pelestarian lingkungan, dan mengurangi biaya operasional.",
     "latarBelakang4": "Selain itu, diharapkan aplikasi ini akan meningkatkan kenyamanan pengguna dan produktivitas dalam berbagai lingkungan, serta memberikan tingkat keamanan yang lebih tinggi melalui notifikasi. Manajemen yang lebih efisien, integrasi data yang lebih baik dengan platform lain, dan peningkatan kualitas hidup diharapkan menjadi hasil dari penggunaan aplikasi ini. Pada akhirnya, kami berharap aplikasi ini akan mendorong inovasi lebih lanjut dalam teknologi IoT dan aplikasi berbasis JavaScript, membuka pintu bagi berbagai aplikasi yang lebih pintar dan efisien di berbagai sektor.",
     "waktuPelaksanakan": ""
-  }
+  },
+
+  "Logo": {
+    "logo1": "https://raw.githubusercontent.com/erfahtech/erfahtech.github.io/main/gambar/JavaScript-logo.png",
+    "logo2": "",
+    "logo3": "",
+    "logo4": ""}
 }
