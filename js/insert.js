@@ -33,7 +33,7 @@ const responsFungsi = (data) => {
 
     setInner("logo1", `<img src="${data.Logo.logo1}" alt="image" style="width: 100px; height: 100px;">`);
     setInner("logo2", `<img src="${data.Logo.logo1}" alt="image" style="width: 100px; height: 100px;">`);
-    setInner("logo3", `<img src="${data.Logo.logo1}" alt="image" style="width: 100px; height: 100px;">`);
+    setInner("logo3", `<img src="${data.Logo.logo3}" alt="image" style="width: 100px; height: 100px;">`);
     setInner("logo4", `<img src="${data.Logo.logo1}" alt="image" style="width: 100px; height: 100px;">`);
 
     };
