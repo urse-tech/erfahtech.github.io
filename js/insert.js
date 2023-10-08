@@ -25,6 +25,7 @@ const responsFungsi = (data) => {
     setInner("foto2", `<img src="${data.team[1].foto2}" alt="image" style="border-radius: 50%; width: 200px; height: 200px;">`);
 
     setInner("jadwal", `<img src="${data.isiProposal.jadwal}"alt="image">`);
+    
 
     // setInner("logo1", `<img src="${data.Logo.logo1}"alt="image">`);
     // setInner("logo2", `<img src="${data.Logo.logo1}"alt="image">`);

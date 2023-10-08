@@ -340,3 +340,10 @@ body.preloader-site {
 
 .white
 {color:ghostwhite}
+
+.centered-image {
+  display: flex;
+  justify-content: center; /* Memusatkan horizontal */
+  align-items: center; /* Memusatkan vertikal */
+  height: 100vh; /* Mengisi tinggi halaman */
+}
