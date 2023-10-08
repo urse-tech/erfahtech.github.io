@@ -17,12 +17,12 @@ const responsFungsi = (data) => {
     setInner("npm1", data.team[0].npm1);
     setInner("email1", data.team[0].email1);
     setInner("github1", data.team[0].github1);
-    setInner("foto1", `<img src="${data.team[0].photo}"`);
+    setInner("foto1", `<img src="${data.team[0].foto1}"alt="image">`);
     setInner("name2", data.team[1].name2);
     setInner("npm2", data.team[1].npm2);
     setInner("email2", data.team[1].email2);
     setInner("github2", data.team[1].github2);
-    setInner("foto2", `<img src="${data.team[1].photo}"`);
+    setInner("foto2", `<img src="${data.team[1].foto2}"alt="image">`);
     
 };
 
