@@ -23,7 +23,6 @@ const responsFungsi = (data) => {
     setInner("email2", data.team[1].email2);
     setInner("github2", data.team[1].github2);
     setInner("foto2", `<img src="${data.team[1].foto2}"alt="image">`);
-    //console.log(data.team[0].foto1)
     };
 
 await get("https://raw.githubusercontent.com/erfahtech/erfahtech.github.io/main/json/isiproposal.json", responsFungsi);
